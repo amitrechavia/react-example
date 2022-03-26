@@ -1,0 +1,52 @@
+#root {
+  background-color: black;
+  color: blanchedalmond;
+}
+
+.movie-app>.row {
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+input {
+  background-color: black;
+  border: 1px solid blanchedalmond;
+  color: blanchedalmond;
+}
+
+html {
+  background-color: black;
+}
+
+#movie {
+  width: fit-content;
+}
+
+#header {
+  font-family: 'Allerta Stencil';
+  font-size: 22px;
+}
+
+#searchBox {
+  font-family: 'Allerta Stencil';
+  font-size: 15px;
+  margin-left: 320px;
+}
+
+label {
+  margin-right: 15px;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(199, 185, 185, 0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+ box-shadow: inset 0 0 6px rgba(199, 185, 185, 0.3);
+}
